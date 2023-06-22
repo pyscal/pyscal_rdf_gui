@@ -9,7 +9,7 @@ setup(
     version='0.0.4',
     author='Abril Azocar Guzman, Sarath Menon',
     author_email='sarath.menon@pyscal.org',
-    description='Ontology based structural manipulation and quering',
+    description='Visual components for ontology based structural manipulation and quering',
     long_description=readme,
     long_description_content_type='text/markdown',
     packages=find_packages(include=['pyscal_rdf_gui', 'pyscal_rdf_gui.*']),
