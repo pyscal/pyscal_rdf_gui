@@ -1,12 +1,12 @@
 from ipywidgets import HBox, VBox, Layout
-from pyscal_rdf.gui.create import output, dropdown, button, checkbox, textbox, header, upload, text
-from pyscal_rdf.gui.properties import dataprops, options
+from pyscal_rdf_gui.create import output, dropdown, button, checkbox, textbox, header, upload, text
+from pyscal_rdf_gui.properties import dataprops, options
 
 class AutoQuery:
     def __init__(self, theme="teal"):
         self.first_line = text("Find all samples with..")
         self.property_dropdown = dropdown("", options, 
-                                          value="Bravais lattice ")
+                                          value="crystal structure name")
         self.compare_options = dropdown("", [" equal to ", 
                                                    " in between ",
                                                    " equal to either "],

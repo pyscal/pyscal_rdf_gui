@@ -1,5 +1,5 @@
 from ipywidgets import HBox, VBox, Layout
-from pyscal_rdf.gui.create import output, dropdown, button, checkbox, textbox, header, upload
+from pyscal_rdf_gui.create import output, dropdown, button, checkbox, textbox, header, upload
 
 class Ontology:
     def __init__(self, theme="teal"):
