@@ -1,6 +1,6 @@
 from ipywidgets import HBox, VBox, Layout
 from pyscal_rdf_gui.create import dropdown, button, checkbox, textbox, header
-from pyscal.crystal_structures import elements, structures
+from pyscal3.crystal_structures import elements, structures
 el_list = list(elements.keys())
 
 class CreateElement:
