@@ -16,5 +16,4 @@ dependencies:
   - plotly
   - jupyterlab-dash
   - networkx
-  - pip:
-    - pyscal_rdf =0.0.7
+  - pyscal_rdf =0.0.7
