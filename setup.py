@@ -16,9 +16,7 @@ setup(
     zip_safe=False,
     download_url = 'https://github.com/pyscal/pyscal_rdf_gui',
     url = 'https://pyscal.org',
-    install_requires=['numpy', 'ase', 'rdflib', 
-    'pyyaml', 'graphviz', 'networkx', 
-    'ipycytoscape', 'pyscal3', 'spglib'],
+    install_requires=['pyscal3', 'pyscal-rdf'],
     classifiers=[
         'Programming Language :: Python :: 3'
     ],

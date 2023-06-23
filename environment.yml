@@ -3,7 +3,8 @@ channels:
   - conda-forge
 dependencies:
   - python >3.8
-  - pyscal3
+  - pyscal3 = 3.1.0
+  - pyscal_rdf
   - rdflib
   - pyyaml
   - jupyterlab
@@ -12,4 +13,7 @@ dependencies:
   - pyyaml
   - ase 
   - ipycytoscape
+  - voila
+  - plotly
+  - jupyterlab-dash
   - networkx
