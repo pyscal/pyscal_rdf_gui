@@ -1,4 +1,4 @@
-name: rdf
+name: rdfx
 channels:
   - conda-forge
 dependencies:
