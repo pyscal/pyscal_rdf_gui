@@ -16,7 +16,6 @@ setup(
     zip_safe=False,
     download_url = 'https://github.com/pyscal/pyscal_rdf_gui',
     url = 'https://pyscal.org',
-    install_requires=['pyscal3', 'pyscal-rdf'],
     classifiers=[
         'Programming Language :: Python :: 3'
     ],
