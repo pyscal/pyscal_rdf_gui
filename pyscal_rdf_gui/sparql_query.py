@@ -12,8 +12,7 @@ class SparqlQuery:
                 ?sample cmso:hasNumberOfAtoms ?number .
                 ?sample cmso:hasMaterial ?material .
                 ?material cmso:hasStructure ?structure .
-                ?structure cmso:hasSpaceGroup ?spacegroup .
-                ?spacegroup cmso:hasSpaceGroupSymbol ?symbol .
+                ?structure cmso:hasSpaceGroupSymbol ?symbol .
             FILTER (?number="2"^^xsd:integer)
             }
             """,

@@ -20,6 +20,7 @@ class AutoQuery:
         self.result_output = output(theme=theme)
         self.plot_structure_button = button("Plot structure", theme=theme)
         self.visualise_graph_button = button("Visualise graph", theme=theme)
+        self.inspect_button = button("Inspect", theme=theme)
         self.result_plotter = output(theme=theme)
         self.w1 = HBox(children=[ self.property_dropdown, 
                        self.compare_output,

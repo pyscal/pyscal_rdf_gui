@@ -1,4 +1,5 @@
 dataprops = {
+    "composition": {"onto": "ElementRatio", "dtype": "string"},
     "volume": {"onto": "Volume", "dtype": "float"},
     "number of atoms": {"onto": "NumberOfAtoms", "dtype": "integer"},
     "simulation cell length in x": {"onto": "SimulationCellLength_x", "dtype": "float"},
